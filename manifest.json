@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "ScrollToTop",
+    "version": "2.0",
+    "description": "Scrolls instantly to top.",
+    "icons": {
+        "48": "assets/up-arrow48.png",
+        "128": "assets/up-arrow128.png",
+        "512": "assets/up-arrow512.png"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_title": "Scroll up",
+        "default_icon": {
+            "16": "assets/up-arrow16.png",
+            "32": "assets/up-arrow32.png",
+            "48": "assets/up-arrow48.png",
+            "128": "assets/up-arrow128.png"
+        }
+    }
+}
